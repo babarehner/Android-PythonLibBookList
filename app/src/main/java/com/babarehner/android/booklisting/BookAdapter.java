@@ -45,6 +45,7 @@ public class BookAdapter extends ArrayAdapter<Book> {
         TextView snippetView = (TextView) listItemView.findViewById(R.id.textSnippet);
         snippetView.setText(currentBook.getTextSnippet());
 
+
         return listItemView;
     }
 
